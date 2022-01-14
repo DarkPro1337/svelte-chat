@@ -1,7 +1,7 @@
 <script>
-	export let appName;
-	export let userName;
-	export let userAvatar;
+	export let appName = "AppName";
+	export let userName = "Unknown";
+	export let userAvatar = "img/users/unknownUser.png";
 </script>
 
 <div id="header">

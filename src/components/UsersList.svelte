@@ -1,10 +1,19 @@
+<script>
+	export let userName = "Unknown";
+	export let userStatus = "offline";
+	export let userAvatar = "img/users/unknownUser.png";
+    export let chatName = "unknown";
+</script>
+
 <div id="users-list">
-    <div class="selected-chat">#main</div>
+    <div class="selected-chat">#{chatName}</div>
     <div class="user">
         <img src={userAvatar} alt="avatar">
         <p class="name">{userName}</p>
         <p class="status">{userStatus}</p>
     </div>
+    <!-- DUMMIES USERS
+         TODO: Make it working through Svelte
     <div class="user">
         <img src="/img/users/user2.png" alt="avatar">
         <p class="name">Maria Mango</p>
@@ -40,4 +49,5 @@
         <p class="name">Anika Bergson</p>
         <p class="status">online</p>
     </div>
+    -->
 </div>
